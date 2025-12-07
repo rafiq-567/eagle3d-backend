@@ -18,5 +18,5 @@ export type UpdateProductPayload = Partial<AddProductPayload>;
 export interface UserPayload {
     uid: string;
     email: string;
-    role: 'admin' | 'viewer'; // Enforcing role checking
+    role: 'admin' | 'viewer';
 }
