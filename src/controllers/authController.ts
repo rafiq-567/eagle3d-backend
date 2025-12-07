@@ -92,8 +92,10 @@
 
 // src/controllers/authController.ts
 import { Request, Response } from 'express';
-import admin, { auth } from '../config/firebase';
+// import admin, { auth } from '../config/firebase';
 import { UserPayload } from '../types/product.types';
+import { auth } from '../config/firebase';
+import admin from '../config/firebase';
 
 const expiresIn = 60 * 60 * 24 * 5 * 1000; // 5 days in ms
 
