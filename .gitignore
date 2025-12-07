@@ -1,0 +1,7 @@
+# .gitignore ফাইল
+# ... অন্যান্য এন্ট্রি ...
+
+# Firebase Service Account Key
+serviceAccountKey.json
+
+.env
