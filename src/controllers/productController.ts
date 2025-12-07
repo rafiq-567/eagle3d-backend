@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
-import { db, admin } from '../config/firebase'; 
+import { db} from '../config/firebase'; 
+import admin from '../config/firebase';
 import { Product, AddProductPayload, UpdateProductPayload } from '../types/product.types';
 
 const productsCollection = db.collection('products');
